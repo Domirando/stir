@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-    color: #fff;
+    color: #000;
+    /* position: fixed; */
 }
 .section-2>p{
     font-family: Roboto;
