@@ -1,7 +1,6 @@
 .section-10{
     background-color: rgba(25, 25, 25, 1);
     color: #fff;
-    /* height: 100vh; */
     padding: 130px 0;
 }
 .enter{
@@ -66,16 +65,35 @@
     align-items: center;
     margin-top: 120px;
 }
-.dogs{
-    position: relative;
-    width: 400px;
-    height: 570px;
-}
-.upon{
-    position: absolute;
-    z-index: 1;
-}
 .section-10>.images>img{
     width: 400px;
     height: 570px;
 }
+.img-wrapper{
+    width: 400px;
+    height: 570px;
+    position: relative;
+}
+.img-overlay{
+    position: absolute;
+    left: calc(50% - 363px/2 + 0.5px);
+    top: calc(50% - 483px/2 - 0.5px);    
+    width: 363px;
+    height: 483px;  
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3.99744px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-overlay>span{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+

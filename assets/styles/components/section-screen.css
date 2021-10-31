@@ -6,6 +6,7 @@
     align-items: center;
 }
 .section-screen>img{
+    transform: translateY(-10px);
     position: absolute;
     width: 950px;
     height: 90vh;
