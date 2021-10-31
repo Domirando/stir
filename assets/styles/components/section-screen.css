@@ -1,7 +1,9 @@
 .section-screen{
-    text-align: center;
+    position: relative;
+    height: 100vh;
 }
 .section-screen>img{
-    height: 500px;
+    position: absolute;
     width: 950px;
+    height: 105vh;
 }
