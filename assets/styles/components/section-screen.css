@@ -1,9 +1,9 @@
 .section-screen{
     position: relative;
-    height: 100vh;
+    height: 90vh;
 }
 .section-screen>img{
     position: absolute;
     width: 950px;
-    height: 105vh;
+    height: 95vh;
 }
