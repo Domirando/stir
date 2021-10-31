@@ -55,7 +55,17 @@
     width: 500px;
 }
 .section-4>.menu{
+    display: flex;
+    column-gap: 20px;
     color: #fff;
+    margin: 80px 0; 
+}
+.right{
+    display: flex;
+    justify-self: flex-start;
+    flex-flow: column wrap;
+    row-gap: 20px;
+    float: right;
 }
 .right>h3{
     font-family: Roboto;
@@ -65,9 +75,22 @@
     line-height: 48px;
     text-align: left;
 }
-.right>.widthus>p{
-    color: #6EE4B5;
+.withus{
     display: flex;
-    flex-flow: row wrap;
     column-gap: 5px;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+.right>.withus>p{
+    color: #6EE4B5;
+}
+.withus>img{
+    width: 15px;
+    height: 12px;
+}
+.left{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 20px;
 }

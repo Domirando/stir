@@ -4,6 +4,10 @@
 @import "./components/section-2.css";
 @import "./components/section-3.css";
 @import "./components/section-4.css";
+@import "./components/section-5.css";
+@import "./components/section-6.css";
+@import "./components/section-7.css";
+@import "./components/section-8.css";
 
 *{
     margin: 0;

@@ -1,0 +1,31 @@
+.section-8{
+    display: flex;
+    background-color: #191919;
+    height: 100vh;
+}
+
+.section-8>img{
+    width: 55%;
+}
+.right-sec8{
+    display: flex;
+    flex-flow: column wrap;
+}
+.right-sec8>p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;    
+    color: #FF573D;
+}
+.right-sec8>h2{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    color: #fff;
+    text-align: left;
+}
