@@ -2,14 +2,18 @@
     display: flex;
     background-color: #191919;
     height: 100vh;
+    justify-content: center;
+
 }
 
 .section-8>img{
     width: 55%;
 }
 .right-sec8{
+    margin-top: 100px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 .right-sec8>p{
     font-family: Roboto;
@@ -21,11 +25,20 @@
     color: #FF573D;
 }
 .right-sec8>h2{
+    margin-top: 10px;
     font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: 48px;
     color: #fff;
+    margin-bottom: 120px;
     text-align: left;
+}
+.tickedItem{
+    column-gap: 4px;
+    display: flex;
+}
+.tickedItem>img{
+    height: 13px;
 }
