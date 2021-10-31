@@ -49,7 +49,10 @@
 .support{
     display: flex;
 }
-.left>.icon{
+.left>p{
+    padding-bottom: 20px;
+}
+.support>.left>.icon{
     border-radius: 20px;
     width: 127px;
     height: 36px;
@@ -58,6 +61,7 @@
     box-sizing: border-box;
     display: flex;
     column-gap: 10px;
+    margin-bottom: 10px;
     justify-items: center;
     align-items: center;
 }

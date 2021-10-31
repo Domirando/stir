@@ -9,6 +9,8 @@
 @import "./components/section-7.css";
 @import "./components/section-8.css";
 @import "./components/section-9.css";
+@import "./components/section-10.css";
+@import "./components/footer.css";
 
 *{
     margin: 0;
@@ -24,4 +26,8 @@ a{
     text-decoration: none;
     color: inherit;
     cursor:pointer;  
+}
+main{
+    position: relative;
+    display: block;
 }
