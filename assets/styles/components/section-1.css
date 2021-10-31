@@ -13,7 +13,7 @@
     align-self: center;
     display: flex;
     flex-flow: column wrap;
-
+    
 }
 .screen>img{
     border: 5px solid #7352FF;
@@ -26,7 +26,7 @@
     top: 280px;
     align-self: center;
     justify-self: center;
-    z-index: 2;
+    z-index: -3;
 }
 .leaders_community{
     position: absolute;
