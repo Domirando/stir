@@ -66,12 +66,11 @@
     margin-top: 120px;
 }
 .section-10>.images>img{
-    width: 400px;
-    height: 570px;
+    /* width: 400px;
+    height: 570px; */
 }
 .img-wrapper{
-    width: 400px;
-    height: 570px;
+    transform: translateY(-50px);
     position: relative;
 }
 .img-overlay{
