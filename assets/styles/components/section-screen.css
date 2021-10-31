@@ -1,6 +1,7 @@
 .section-screen{
-    background-image: url("/assets/images/browserImage.png");
-    height: 200px;
-    width: 300px;
-    position: absolute;
+    text-align: center;
+}
+.section-screen>img{
+    height: 500px;
+    width: 950px;
 }
