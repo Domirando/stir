@@ -65,10 +65,6 @@
     align-items: center;
     margin-top: 120px;
 }
-.section-10>.images>img{
-    /* width: 400px;
-    height: 570px; */
-}
 .img-wrapper{
     transform: translateY(-50px);
     position: relative;
